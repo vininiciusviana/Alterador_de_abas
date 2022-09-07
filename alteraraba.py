@@ -13,7 +13,7 @@ def alterar(): #alterar entre as abas do navegador
 
 def encerrar(): #encerrar o processo
     while True:
-        if keyboard.is_pressed('p'):
+        if keyboard.is_pressed('p'): #utilizar a tecla P para encerrar o processo
             os._exit(0)
 
 
