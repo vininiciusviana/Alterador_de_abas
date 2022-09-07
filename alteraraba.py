@@ -7,13 +7,13 @@ import os
 
 def alterar(): #alterar entre as abas do navegador
     while True:
-        time.sleep(5)
+        time.sleep(120)
         pyautogui.hotkey('ctrl', 'tab')
 
 
 def encerrar(): #encerrar o processo
     while True:
-        if keyboard.is_pressed('p'): #utilizar a tecla P para encerrar o processo
+        if keyboard.is_pressed('esc'): #utilizar a tecla ESC para encerrar o processo
             os._exit(0)
 
 
