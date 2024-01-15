@@ -5,7 +5,7 @@ import keyboard
 import os
 
 
-def alterar(): #alterar entre as abas do navegador
+def alterar(): #alterar entre as abas do navegadorr
     while True:
         time.sleep(120)
         pyautogui.hotkey('ctrl', 'tab')
